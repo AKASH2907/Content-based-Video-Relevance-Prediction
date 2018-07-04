@@ -1,5 +1,5 @@
 # Content-based-Video-Recommendation
-Video Relevance Prediction based on Content
+Video Relevance Prediction ACM Mutimedia Grand Challenge 2018
 
    As a part of ACM Multiledia 2018 Grand Challenge, we participated in this challenge which is conducted by HULU organization.Due to legal issues, we don't have access to the videos of TV Shows and Movies. So, based on the features of InceptionV3 network and Convolution 3D network, we predicted videos based on the feature analysis.
 
