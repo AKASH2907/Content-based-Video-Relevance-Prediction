@@ -11,3 +11,9 @@ is added to the library, the recommendation system needs to bootstrap the video 
 behavior known.
 
    Several approaches have been done using collabartive filtering methods. However,this kind of method performs poorly on “cold-start” problems - when a new video is added to the library, the recommendation system needs to bootstrap the video relevance score with very little user behavior known.     
+
+## Methods
+
+## 1) Regression using Deep Learning
+We devised our own model in which the Inception-pool3 features and Convolution-pool5 features were input vector and then Tv Shows/Movies are predicted. We tested our model with various losses such as cosine proximity loss, poisson loss and mean squared error loss.
+
