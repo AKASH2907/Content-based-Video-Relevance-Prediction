@@ -13,10 +13,13 @@ behavior known.
    Several approaches have been done using collabartive filtering methods. However,this kind of method performs poorly on “cold-start” problems - when a new video is added to the library, the recommendation system needs to bootstrap the video relevance score with very little user behavior known.     
 
 ## Dataset Overview
+
+
    The dataset contains feature vectors from Inception-pool3 layer and Convolutional 3D-pool5 layer. Inception Network was used to generate **frame-level** features and C3D model was used to generate **video-level features**. 
    * For frame-level features, video is decoded at 1 fps and then feed the decoded frames into the InceptionV3 networks trained on ImageNet dataset, and fetch the ReLU activation of the last hidden layer, named pool 3 reshape with 2048 dimensions. 
    * For video-level features, state-of-the-art architecture C3D model was employed, resorting to its most popular implementation from Facebook.
 
+### Brief Dataset uploaded 
 
 
 ## Methods
