@@ -44,4 +44,7 @@ For the evaluation of performance, first recall@100 and then hit@30 were taken i
 ## 1) Regression using Deep Learning
 We devised our own model in which the Inception-pool3 features and Convolution-pool5 features were input vector and then Tv Shows/Movies are predicted. We tested our model with various losses such as cosine proximity loss, poisson loss and mean squared error loss.
 
+## References
+[1] Sami Abu-El-Haija, Nisarg Kothari, Joonseok Lee, Paul Natsev, George Toderici, Balakrishnan Varadarajan, and Sudheendra Vijayanarasimhan, “Youtube-8m: A large-scale video classification benchmark.” arXiv preprint arXiv:1609.08675, 2016.
 
+[2] Tran Du, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri. "Learning spatiotemporal features with 3d convolutional networks.” In Proceedings of the IEEE International Conference on Computer Vision, pp. 4489-4497. 2015.
