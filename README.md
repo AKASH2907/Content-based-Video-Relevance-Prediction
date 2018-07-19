@@ -37,14 +37,11 @@ For each item r, it is provided the ground truth top M most relevant items retri
 
 **Hit Rate:**  Hit@K is defined for as single test case as either value 1 if recall@K > 0, or the value 0 if otherwise.
 
+For the evaluation of performance, first recall@100 and then hit@30 were taken into consideration.
+
 ## Methods
 
 ## 1) Regression using Deep Learning
 We devised our own model in which the Inception-pool3 features and Convolution-pool5 features were input vector and then Tv Shows/Movies are predicted. We tested our model with various losses such as cosine proximity loss, poisson loss and mean squared error loss.
 
 
-## Evaluation Metrics
-For the performance, evaluation hit@30 and recall@100 were taken into evaluation:
-
-1) Hit@k
-2) Recall@k
