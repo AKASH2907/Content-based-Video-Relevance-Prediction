@@ -22,11 +22,20 @@ behavior known.
    * For video-level features, state-of-the-art architecture C3D model was employed, resorting to its most popular implementation from Facebook.
 
 **Track 1** - TV shows: For TV-shows, there were nearly 7,000 TV-show video trailers with pre-extracted features. The whole set is divided into 3 subsets: training set (3,000 shows), validation set (864 shows), and testing set (3,000 shows).
+
 **Track 2** - Movies: For movies, we provide over 10,000 movie video trailers. The whole set is divided into 3 subsets:
 training set (4,500 movies), validation set (1188 movies), and testing set (4,500 movies).
 
 *An overview of the dataset is uploaded. The whole dataset is too large.* 
 
+## Evaluation Metrics
+For each item r, it is provided the ground truth top M most relevant items retrieved from candidate set C. The relevance list is defined as o r = [o r 1 , o r 2 , ..., o rM ], where o ri ∈ C is the item ranked i-th position in o r . The participants need to predict top K relevant shows/movies for each item, which can be r represented as o e r = [ o e r 1 , o e r 2 , ..., o f K ].
+**Recall Rate:** recall@K is calculated as follows:
+
+![screenshot from 2018-07-19 13-31-41](https://user-images.githubusercontent.com/22872200/42930346-5e7c67fc-8b5a-11e8-9e38-892c990d791b.png)
+
+
+**Hit Rate:**  Hit@K is defined for as single test case as either value 1 if recall@K > 0, or the value 0 if otherwise.
 
 ## Methods
 
