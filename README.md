@@ -46,6 +46,6 @@ We devised our own model in which the Inception-pool3 features and Convolution-p
 ![model 2](https://user-images.githubusercontent.com/22872200/43414463-6ff49618-9450-11e8-9f26-f2ca5de33204.png)
 
 ## References
-[1] Sami Abu-El-Haija, Nisarg Kothari, Joonseok Lee, Paul Natsev, George Toderici, Balakrishnan Varadarajan, and Sudheendra Vijayanarasimhan, “Youtube-8m: A large-scale video classification benchmark.” arXiv preprint arXiv:1609.08675, 2016.
+[1] Sami Abu-El-Haija, Nisarg Kothari, Joonseok Lee, Paul Natsev, George Toderici, Balakrishnan Varadarajan, and Sudheendra Vijayanarasimhan, “[Youtube-8m: A large-scale video classification benchmark.](https://arxiv.org/abs/1609.08675)” arXiv preprint arXiv:1609.08675, 2016.
 
-[2] Tran Du, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri. "Learning spatiotemporal features with 3d convolutional networks.” In Proceedings of the IEEE International Conference on Computer Vision, pp. 4489-4497. 2015.
+[2] Tran Du, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri. "[Learning spatiotemporal features with 3d convolutional networks.](https://arxiv.org/abs/1412.0767)” In Proceedings of the IEEE International Conference on Computer Vision, pp. 4489-4497. 2015.
