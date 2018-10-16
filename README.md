@@ -10,7 +10,11 @@ e.g. watch and search history. However, this kind of method performs poorly for 
 is added to the library, the recommendation system needs to bootstrap the video relevance score with very little user
 behavior known.
 
-   Several approaches have been done using collabartive filtering methods. However,this kind of method performs poorly on “cold-start” problems - when a new video is added to the library, the recommendation system needs to bootstrap the video relevance score with very little user behavior known.     
+   Several approaches have been done using collabartive filtering methods. However,this kind of method performs poorly on “cold-start” problems - when a new video is added to the library, the recommendation system needs to bootstrap the video relevance score with very little user behavior known.   
+   
+   
+![Hulu movies list](https://user-images.githubusercontent.com/22872200/47040773-bec19700-d1a4-11e8-89c2-07b6f1d4619d.jpg)
+
 
 ## Dataset Overview
 
