@@ -1,9 +1,8 @@
 # Content-based-Video-Relevance-Prediction
 Video Relevance Prediction ACM Mutimedia Grand Challenge 2018
 
-   As a part of **ACM Multiledia 2018 Grand Challenge**, we participated in this challenge which is conducted by HULU organization.Due to legal issues, we don't have access to the videos of TV Shows and Movies. So, based on the features of InceptionV3 (frame level) network and Convolution 3D (video level) network, we predicted videos based on the feature analysis.
+   As a part of **ACM Multiledia 2018 Grand Challenge**, we participated in this challenge which is conducted by HULU organization.Due to legal issues, we don't have access to the videos of TV Shows and Movies. So, based on the features of InceptionV3 (frame level) network and Convolution 3D (video level) network, we predicted videos based on the feature analysis. This project is done in Python 3 and Keras with Tensorflow backend. The architecture consists of average ensemble of 3 networks consisting of Random Forest Regression, DL based Regression and Deep LDA.
 
-   
    
 ![Hulu movies list](https://user-images.githubusercontent.com/22872200/47040773-bec19700-d1a4-11e8-89c2-07b6f1d4619d.jpg)
 
