@@ -48,6 +48,14 @@ We devised our own model in which the Inception-pool3 features and Convolution-p
 
 ![model 2](https://user-images.githubusercontent.com/22872200/43414463-6ff49618-9450-11e8-9f26-f2ca5de33204.png)
 
+## 2) Random Forest Regression on Video Pairs
+
+For a particular video, its positive pairs are formed with the videos that are in its ground truth. Negative pairs are formed
+by choosing videos randomly from the videos not present in the list of similar videos. To make the model not biased towards any type of pair, we keep the number of positive pairs equal to the number of negative pairs. For ach pair, distances were calculated, and then Random Forest Regressor was used to choose the best features.
+
+![random_forest](https://user-images.githubusercontent.com/22872200/49464146-22b92100-f820-11e8-8359-7e1134818889.png)
+
+
 ## References
 [1] Sami Abu-El-Haija, Nisarg Kothari, Joonseok Lee, Paul Natsev, George Toderici, Balakrishnan Varadarajan, and Sudheendra Vijayanarasimhan, “[Youtube-8m: A large-scale video classification benchmark.](https://arxiv.org/abs/1609.08675)” arXiv preprint arXiv:1609.08675, 2016.
 
