@@ -29,17 +29,6 @@ training set (4,500 movies), validation set (1188 movies), and testing set (4,50
 
 *An overview of the dataset is uploaded. The whole dataset is too large.* 
 
-## Evaluation Metrics
-For each item r, it is provided the ground truth top M most relevant items retrieved from candidate set C. The relevance list is defined as o r = [o r 1 , o r 2 , ..., o rM ], where o ri ∈ C is the item ranked i-th position in o r . The participants need to predict top K relevant shows/movies for each item, which can be r represented as o e r = [ o e r 1 , o e r 2 , ..., o f K ].
-**Recall Rate:** recall@K is calculated as follows:
-
-![screenshot from 2018-07-19 13-31-41](https://user-images.githubusercontent.com/22872200/42930346-5e7c67fc-8b5a-11e8-9e38-892c990d791b.png)
-
-
-**Hit Rate:**  Hit@K is defined for as single test case as either value 1 if recall@K > 0, or the value 0 if otherwise.
-
-For the evaluation of performance, first recall@100 and then hit@30 were taken into consideration.
-
 ## Methods
 
 ## 1) Regression using Deep Learning
@@ -55,6 +44,20 @@ by choosing videos randomly from the videos not present in the list of similar v
 
 ![random_forest](https://user-images.githubusercontent.com/22872200/49464146-22b92100-f820-11e8-8359-7e1134818889.png)
 
+## 3) Deep Linear Discriminant Analysis
+
+![deep+lda](https://user-images.githubusercontent.com/22872200/49464229-57c57380-f820-11e8-8a02-e3c26572d3ef.png)
+
+## Evaluation Metrics
+For each item r, it is provided the ground truth top M most relevant items retrieved from candidate set C. The relevance list is defined as o r = [o r 1 , o r 2 , ..., o rM ], where o ri ∈ C is the item ranked i-th position in o r . The participants need to predict top K relevant shows/movies for each item, which can be r represented as o e r = [ o e r 1 , o e r 2 , ..., o f K ].
+**Recall Rate:** recall@K is calculated as follows:
+
+![screenshot from 2018-07-19 13-31-41](https://user-images.githubusercontent.com/22872200/42930346-5e7c67fc-8b5a-11e8-9e38-892c990d791b.png)
+
+
+**Hit Rate:**  Hit@K is defined for as single test case as either value 1 if recall@K > 0, or the value 0 if otherwise.
+
+For the evaluation of performance, first recall@100 and then hit@30 were taken into consideration.
 
 ## References
 [1] Sami Abu-El-Haija, Nisarg Kothari, Joonseok Lee, Paul Natsev, George Toderici, Balakrishnan Varadarajan, and Sudheendra Vijayanarasimhan, “[Youtube-8m: A large-scale video classification benchmark.](https://arxiv.org/abs/1609.08675)” arXiv preprint arXiv:1609.08675, 2016.
